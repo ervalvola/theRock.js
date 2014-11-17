@@ -240,3 +240,5 @@ Events
 
 Use it to modify the value of some parameter you'd like to change.
 
+[[list of parameters here]]
+
