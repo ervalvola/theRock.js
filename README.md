@@ -48,7 +48,7 @@ All callbacks should follow node's standard `callback = function(error, result)`
 
 ### subscribe (public)
 ```javascript
-
+var TheRock = require('./theRock.js').TheRock
 	
 var trt = new TheRock()
 
