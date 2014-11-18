@@ -212,7 +212,7 @@ Events
 * <a name="Eup"> `up`</a> emitted every time that a successfull update operation is finished.
 * <a name="Echanges"> `changes`</a> emitted every time that some changes occurs in balances and/or open orders. It carries an object with
 detailed informations about what changed.
-* <a name="Etrade"> `trade`</a> for simplicity, this event notifies only changes in balances. N.B.: it only notifies changes in balances; the event
+* <a name="Etrade"> `trade`</a> for simplicity, this event notifies only changes in balances. N.B.: the event
 can't be put in one-to-one corrispondence with finalized trades happened in the market, i.e. you can receive an event with "bought" property but an empty
 "sold" property and after some seconds receive another message with the "sold" part; this is due to the structure of the API and I'm actually 
 thinking about some workarounds to improve it. Furthermore, if two or more trades happens simultaneously (i.e., between two update requests)
