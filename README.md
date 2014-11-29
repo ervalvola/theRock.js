@@ -3,8 +3,10 @@
 This is a simple node.js library to interact with www.therocktrading.com. It may be simply used as an API wrapper but it contains 
 some additional asynchronous methods which could be helpful to automate some operations: look at [start](#start) and [subscribe](#subscribe)
 if interested.
-x
+
+
 Tips are very much appreciated: 18s8sDkWsnp9F91CaGpb8o4SoRKT351iRW
+
 
 ## Doc 
 
