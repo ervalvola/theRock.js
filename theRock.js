@@ -60,7 +60,7 @@ function TheRock(id) {
 	})
 	
 	this.on('orderCancelled', function(id){
-		for (i=0; i<self.orders.length; i++) {
+		for (i=0; i<self.offers.length; i++) {
 			if (self.offers[i].order_id == id) {
 					self.offers.splice(i,1)			
 			}		
